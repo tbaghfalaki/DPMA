@@ -7,11 +7,8 @@ Dynamic event  prediction, using joint modeling of survival time and longitudina
 To obtain the latest development version of DPMA, you can use the following code snippet to install it directly from GitHub:
 
 ``` 
-
 # install.packages("devtools") 
-
 devtools::install_github("tbaghfalaki/DPMA")
-
 ```
 
 This will effortlessly fetch and install the most up-to-date version of DPMA for your use.
