@@ -1,0 +1,19 @@
+Package: DPMA
+Type: Package
+Title: A model averaging approach for dynamic prediction of an event using multiple longitudinal markers
+Version: 0.1.1
+Authors@R: c(person("Taban", "Baghfalaki", role=c("aut", "cre"), email="t.baghfalaki@gmail.com"),
+	     person("Viviane", "Philipps", role="aut"),
+	     person("Reza", "Hashemi", role="aut"),
+	     person("Helene", "Jacqmin-Gadda", role="aut"))
+Description: Dynamic event prediction, using joint modeling of survival time and longitudinal variables, is extremely useful in personalized medicine. However, the estimation of joint models including many longitudinal markers is still a computational challenge because of the high number of random effects and parameters to be estimated. We use a model averaging strategy to combine predictions from several joint models for the event, including one longitudinal marker only   or pairwise longitudinal markers. The prediction is computed as the weighted mean of the predictions from the one-marker or two-marker  models, with the time-dependent weights estimated by minimizing the time-dependent Brier score. This method enables us to combine a large number of predictions issued from joint models to achieve a reliable and accurate individual prediction. 
+Depends: R (>= 3.5.0)
+Imports: JMbayes, Rsolnp, nricens, survival
+License: GPL (>= 2.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.0
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+NeedsCompilation: no
+Packaged: 2023-09-26 12:07:25 UTC; vp3
